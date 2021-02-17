@@ -34,7 +34,7 @@ class PySet(QWidget):
         os.system(f'xterm -e "cd {os.getcwd()}; {self.yamlCfg["command"]}; read -n1 -p \'Press any key to exit\'"')
 
 
-if __name__ == "__main__":
+def main():
     app = QApplication([])
     widget = PySet()
     widget.show()

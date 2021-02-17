@@ -1,0 +1,5 @@
+
+# pyb.yml
+# This is the PyBundle configuration file.
+name: pyset # Project name
+script: pyset # Main script path (for 'pyb run')
